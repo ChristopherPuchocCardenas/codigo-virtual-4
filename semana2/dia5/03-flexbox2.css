@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    border: 1px solid blue;
+    height: 400px;
+    /*
+    /*
+    /* justify-content: alinea los elementos en el eje principal */
+    /* Eje pricipal: cuando flex-direccion es row, el eje principal es "X" o cuando flex-direccion es column, el eje pricipal es "Y" */
+    /*
+    /*    
+    /* justify-content: Center,space-between, space-around y space-evenly (valores) */
+    justify-content: space-evenly;
+    /*
+    /*
+    /* align-items: alinea los elementos en el eje secundario */
+    /*align-items: Flex-end, center (valores)*/
+    align-items: center;
+}
+
+.main__form {
+    width: 600px;
+    border: 1px solid red;
+}

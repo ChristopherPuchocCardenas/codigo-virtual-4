@@ -1,0 +1,41 @@
+header {
+    background: gray;
+}
+
+section {
+    background: yellow;
+}
+
+h1,
+h2,
+h3 {
+    color: red;
+}
+
+
+/*Seleccionamos hijos sin importar el nivel*/
+
+.Anuncios .TextoAnuncio {
+    background: chocolate;
+    color: white;
+}
+
+.card {
+    background: royalblue;
+}
+
+
+/*Selecciona hijos especificos*/
+
+.card>.card-body {
+    background: salmon;
+}
+
+.card>.card-body>h4,
+p {
+    color: black;
+}
+
+.card>.foot-card-body {
+    background: green;
+}

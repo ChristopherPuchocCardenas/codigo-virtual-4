@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.seccion1 {
+    height: 100px;
+    /*color de fondo*/
+    background-color: #444;
+}
+
+.seccion2 {
+    height: 200px;
+    /*Imagen de fondo*/
+    background-image: url(https://www.publicdomainpictures.net/pictures/340000/nahled/background-sky-with-cloud-1588593854oxL.jpg);
+    /*Controlar la repeticion de imagen*/
+    background-repeat: no-repeat;
+    /*controlar la posicion de la imagen*/
+    /*Center - Left - Right*/
+    background-position: center;
+    /*Controla la extension de la imagen*/
+    background-size: cover;
+}
+
+.seccion2__titulo {
+    height: 200px;
+    background-color: rgba(40, 40, 40, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.seccion3 {
+    height: 500px;
+    /*Colocando una gradiente*/
+    background: #333333;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #dd1818, #333333);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #dd1818, #333333);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

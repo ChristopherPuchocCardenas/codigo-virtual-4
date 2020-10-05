@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 19px;
+}
+
+.header {
+    height: 3.5rem;
+    background-color: #555;
+}
+
+.main {
+    display: flex;
+    min-height: calc(100vh - 3.75rem);
+    background-color: #ccc;
+}
+
+.section-left {
+    width: 50%;
+    height: 200px;
+    background: #9bcafa;
+}
+
+.section-right {
+    width: 50%;
+    height: 200px;
+    background: #bdfa8e;
+}
+
+@media (max-width:768px) {
+    .main {
+        flex-direction: column;
+    }
+    .section-left,
+    .section-right {
+        width: 100%;
+    }
+}

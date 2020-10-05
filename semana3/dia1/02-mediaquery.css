@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #abffab;
+}
+
+
+/* agregando mediaqueries */
+
+
+/*
+/* 
+Los mediaqueries deben ser ordenandos de forma descendente, es decir primero las resoluciones mas grandes y luego las mas pequeñas 
+*/
+
+
+/* 
+El mediaquery a continuacion seran una serie de reglas que se aplicaran a la pagina, siempre y cuando el ancho del viewport, sea menor o igual a 1024 
+*/
+
+
+/* 
+Es lo mismo decir, un tamaño maximo de 1024px 
+*/
+
+@media (max-width: 1024px) {
+    body {
+        background-color: #fbd07f;
+    }
+}
+
+
+/* Esta regla servira para colocar estilos cuando el viewport sea menor o igual a 768px */
+
+@media (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: #fda8ef;
+        d
+    }
+}
